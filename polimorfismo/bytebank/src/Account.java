@@ -1,5 +1,5 @@
-public class Account {
-    private double balance;
+public abstract class Account {
+    protected double balance;
     private int agency;
     private int number;
     private Client  holder;
@@ -15,9 +15,8 @@ public class Account {
         System.out.println("Creating account " + this.getNumber());
     }
 
-    public void deposit(double value){
-        this.balance += value;
-    }
+    public abstract void deposit(double value);
+
 
     public boolean withdraw(double value){
         if(this.balance >= value){

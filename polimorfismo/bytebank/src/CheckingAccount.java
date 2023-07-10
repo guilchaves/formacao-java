@@ -4,6 +4,12 @@ public class CheckingAccount extends Account {
    }
 
     @Override
+    public void deposit(double value) {
+       super.balance += value;
+
+    }
+
+    @Override
     public boolean withdraw(double value) {
         double taxedValue = value + 0.2;
         return super.withdraw(taxedValue);
