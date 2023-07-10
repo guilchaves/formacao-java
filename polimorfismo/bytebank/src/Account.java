@@ -5,6 +5,7 @@ public class Account {
     private Client  holder;
     private static int total = 0;
 
+
     public Account(int agency, int number){
         Account.total++;
         System.out.println("The number of total accounts created is: " + Account.total);

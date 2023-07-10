@@ -1,13 +1,15 @@
 public class TestAccount {
 
     public static void main(String[] args) {
-        Account account = new Account(1337, 23334);
-        account.deposit(200.0);
-        System.out.println(account.getBalance());
+        CheckingAccount ca = new CheckingAccount(111, 111);
+        ca.deposit(100.0);
 
-        account.setAgency(570);
-        System.out.println(account.getAgency());
-        System.out.println("The total number of account is " + Account.getTotal());
+        SavingsAccount sa = new SavingsAccount(222, 222);
+        sa.deposit(200.0);
 
+        ca.transfer(10.0, sa);
+
+        System.out.println("CA balance: " + ca.getBalance());
+        System.out.println("SA balance: "+ sa.getBalance());
     }
 }
