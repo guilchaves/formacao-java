@@ -1,4 +1,4 @@
-public class Manager extends Employee {
+public class Manager extends Employee implements Authenticable {
 
     private int password;
 
@@ -6,11 +6,13 @@ public class Manager extends Employee {
         return super.getSalary();
     }
 
-    public void setPassword(int password){
+    @Override
+    public void setPassword(int password) {
         this.password = password;
     }
 
-    public boolean auth(int password){
+    @Override
+    public boolean auth(int password) {
         return this.password == password;
     }
 }
