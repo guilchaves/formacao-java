@@ -7,7 +7,7 @@ public class FlowWithExHandling {
         }catch(ArithmeticException | NullPointerException ex){
             String msg = ex.getMessage();
             System.out.println("Exception " + msg);
-            //ex.printStackTrace();
+            ex.printStackTrace();
         }
         System.out.println("Fim do main");
     }
@@ -20,13 +20,9 @@ public class FlowWithExHandling {
 
     private static void metodo2() {
         System.out.println("Ini do metodo2");
-        for(int i = 1; i <= 5; i++) {
-            System.out.println(i);
-                //int a = i/0;
-            Account a = null;
-            a.deposit();
+        ArithmeticException ex = new ArithmeticException("code error!");
+        throw ex;
 
-        }
-        System.out.println("Fim do metodo2");
+        //System.out.println("Fim do metodo2");
     }
 }
