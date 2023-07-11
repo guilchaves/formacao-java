@@ -4,8 +4,10 @@ public class Flow {
         System.out.println("Ini do main");
         try{
             metodo1();
-        }catch(ArithmeticException ex){
-            System.out.println(ex.getMessage());
+        }catch(ArithmeticException | NullPointerException ex){
+            String msg = ex.getMessage();
+            System.out.println("Exception " + msg);
+            //ex.printStackTrace();
         }
         System.out.println("Fim do main");
     }
@@ -20,7 +22,10 @@ public class Flow {
         System.out.println("Ini do metodo2");
         for(int i = 1; i <= 5; i++) {
             System.out.println(i);
-                int a = i/0;
+                //int a = i/0;
+            Account a = null;
+            a.deposit();
+
         }
         System.out.println("Fim do metodo2");
     }
