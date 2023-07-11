@@ -4,7 +4,7 @@ public class Flow {
         System.out.println("Ini do main");
         try{
             metodo1();
-        }catch(ArithmeticException | NullPointerException ex){
+        }catch(ArithmeticException | NullPointerException | CustomException ex){
             String msg = ex.getMessage();
             System.out.println("Exception " + msg);
             //ex.printStackTrace();
@@ -20,13 +20,8 @@ public class Flow {
 
     private static void metodo2() {
         System.out.println("Ini do metodo2");
-        for(int i = 1; i <= 5; i++) {
-            System.out.println(i);
-                //int a = i/0;
-            Account a = null;
-            a.deposit();
+        throw new CustomException("Erro de custom exception");
 
-        }
-        System.out.println("Fim do metodo2");
+//        System.out.println("Fim do metodo2");
     }
 }
