@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="bytebank:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/bytebank_jar</output-path>
+    <root id="archive" name="bytebank.jar">
+      <element id="module-output" name="bytebank" />
+    </root>
+  </artifact>
+</component>
