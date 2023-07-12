@@ -2,6 +2,7 @@ package br.com.bytebank.bank.tests;
 
 import br.com.bytebank.bank.model.CheckingAccount;
 import br.com.bytebank.bank.model.SavingsAccount;
+import br.com.bytebank.bank.special.SpecialAccount;
 
 public class TestAccount {
 
@@ -16,5 +17,8 @@ public class TestAccount {
 
         System.out.println("CA balance: " + ca.getBalance());
         System.out.println("SA balance: "+ sa.getBalance());
+
+        SpecialAccount premiumAccount = new SpecialAccount(123, 4444);
+        System.out.println(premiumAccount);
     }
 }
