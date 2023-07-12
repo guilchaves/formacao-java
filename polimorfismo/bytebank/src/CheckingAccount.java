@@ -10,8 +10,8 @@ public class CheckingAccount extends Account {
     }
 
     @Override
-    public boolean withdraw(double value) {
+    public void withdraw(double value) {
         double taxedValue = value + 0.2;
-        return super.withdraw(taxedValue);
+        super.withdraw(taxedValue);
     }
 }

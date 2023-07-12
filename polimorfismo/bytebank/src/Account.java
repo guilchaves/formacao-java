@@ -18,21 +18,16 @@ public abstract class Account {
     public abstract void deposit(double value);
 
 
-    public boolean withdraw(double value){
-        if(this.balance >= value){
-            this.balance -= value;
-            return true;
+    public void withdraw(double value){
+        if(this.balance < value){
+            throw new InsufficientFundsException("Insufficient funds to complete this operation.\nCurrent balance: " + this.getBalance() );
         }
-        return false;
+        this.balance -= value;
     }
 
-    public boolean transfer(double value, Account destination){
-        if(this.withdraw(value)){
-            destination.deposit(value);
-            return true;
-        }
-
-        return false;
+    public void transfer(double value, Account destination){
+        this.withdraw(value);
+        destination.deposit(value);
     }
 
     public double getBalance() {
