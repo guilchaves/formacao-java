@@ -17,6 +17,11 @@ public abstract class Account {
         //System.out.println("Creating account " + this.getNumber());
     }
 
+    @Override
+    public String toString() {
+        return "Agency: " + this.getAgency() + "\nNumber: "+ this.getNumber();
+    }
+
     public abstract void deposit(double value);
 
 
