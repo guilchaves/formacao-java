@@ -10,11 +10,11 @@ public abstract class Account {
 
     public Account(int agency, int number){
         Account.total++;
-        System.out.println("The number of total accounts created is: " + Account.total);
+        //System.out.println("The number of total accounts created is: " + Account.total);
         this.agency = agency;
         this.number = number;
         this.balance = 0;
-        System.out.println("Creating account " + this.getNumber());
+        //System.out.println("Creating account " + this.getNumber());
     }
 
     public abstract void deposit(double value);

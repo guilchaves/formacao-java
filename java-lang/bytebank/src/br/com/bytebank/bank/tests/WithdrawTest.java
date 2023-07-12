@@ -1,5 +1,9 @@
 package br.com.bytebank.bank.tests;
 
+import br.com.bytebank.bank.model.Account;
+import br.com.bytebank.bank.model.CheckingAccount;
+import br.com.bytebank.bank.model.InsufficientFundsException;
+
 public class WithdrawTest {
 
     public static void main(String[] args) {
@@ -8,7 +12,7 @@ public class WithdrawTest {
         a.deposit(200.0);
 
         try{
-            a.withdraw(300.0);
+            a.withdraw(100.0);
         } catch(InsufficientFundsException ex){
             System.out.println("Exception: " + ex.getMessage());
         }
