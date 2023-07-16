@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bytebank1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bytebank-libs/libs/bytebank_jar/bytebank.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

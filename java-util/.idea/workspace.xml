@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="503ccfbf-9082-41d5-a6e4-79d4ba8e9a6b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bytebank/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/model/Account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/model/CheckingAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/model/Client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/model/InsufficientFundsException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/model/LifeInsurance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/model/SavingsAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/model/TaxCalculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/model/Taxable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/model/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/model/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/special/SpecialAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/special/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/special/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/tests/TestAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/tests/TestTaxable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/tests/WithdrawTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/tests/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/br/com/bytebank/bank/tests/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/index-files/index-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/index-files/index-12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/jquery-ui.overrides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/script-dir/images/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/script-dir/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/script-dir/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/script-dir/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/script-dir/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/script-dir/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/script-dir/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/script-dir/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/script-dir/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/tag-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/docs/type-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/src/br/com/bytebank/bank/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/src/br/com/bytebank/bank/model/CheckingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/src/br/com/bytebank/bank/model/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/src/br/com/bytebank/bank/model/InsufficientFundsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/src/br/com/bytebank/bank/model/LifeInsurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/src/br/com/bytebank/bank/model/SavingsAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/src/br/com/bytebank/bank/model/TaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/src/br/com/bytebank/bank/model/Taxable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/src/br/com/bytebank/bank/special/SpecialAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/src/br/com/bytebank/bank/tests/TestAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/src/br/com/bytebank/bank/tests/TestObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/src/br/com/bytebank/bank/tests/TestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/src/br/com/bytebank/bank/tests/TestTaxable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank/src/br/com/bytebank/bank/tests/WithdrawTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-lang/bytebank-libs/bytebank-libs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-lang/bytebank-libs/bytebank-libs.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2SfKM7p1WH0sNmasbUl1TZeA9Zv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="503ccfbf-9082-41d5-a6e4-79d4ba8e9a6b" name="Changes" comment="" />
+      <created>1689532147121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689532147121</updated>
+    </task>
+    <servers />
+  </component>
+</project>
