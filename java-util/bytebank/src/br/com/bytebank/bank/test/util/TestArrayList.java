@@ -2,11 +2,10 @@ package br.com.bytebank.bank.test.util;
 
 import br.com.bytebank.bank.model.Account;
 import br.com.bytebank.bank.model.CheckingAccount;
-import br.com.bytebank.bank.model.Client;
 
 import java.util.ArrayList;
 
-public class Test {
+public class TestArrayList {
 
     public static void main(String[] args) {
 

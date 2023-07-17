@@ -8,7 +8,7 @@ public abstract class Account {
     private static int total = 0;
 
 
-    public Account(int agency, int number){
+    public Account(int agency, int number) {
         Account.total++;
         //System.out.println("The number of total accounts created is: " + Account.total);
         this.agency = agency;
@@ -19,20 +19,34 @@ public abstract class Account {
 
     @Override
     public String toString() {
-        return "Agency: " + this.getAgency() + "\nNumber: "+ this.getNumber();
+        return "Agency: " + this.getAgency() + ", Number: " + this.getNumber();
+    }
+
+    @Override
+    public boolean equals(Object ref){
+       Account another = (Account) ref;
+
+       if(this.agency != another.agency){
+           return false;
+       }
+
+       if(this.number != another.number){
+           return false;
+       }
+       return true;
     }
 
     public abstract void deposit(double value);
 
 
-    public void withdraw(double value){
-        if(this.balance < value){
-            throw new InsufficientFundsException("Insufficient funds to complete this operation.\nCurrent balance: " + this.getBalance() );
+    public void withdraw(double value) {
+        if (this.balance < value) {
+            throw new InsufficientFundsException("Insufficient funds to complete this operation.\nCurrent balance: " + this.getBalance());
         }
         this.balance -= value;
     }
 
-    public void transfer(double value, Account destination){
+    public void transfer(double value, Account destination) {
         this.withdraw(value);
         destination.deposit(value);
     }
@@ -46,7 +60,7 @@ public abstract class Account {
     }
 
     public void setAgency(int agency) {
-        if(agency <= 0){
+        if (agency <= 0) {
             System.out.println("The agency number must be greater than 0");
         }
         this.agency = agency;
@@ -57,7 +71,7 @@ public abstract class Account {
     }
 
     public void setNumber(int number) {
-        if(number <= 0){
+        if (number <= 0) {
             System.out.println("The account number must be greater than 0");
         }
         this.number = number;
@@ -71,7 +85,18 @@ public abstract class Account {
         this.holder = holder;
     }
 
-    public static int getTotal(){
+    public static int getTotal() {
         return Account.total;
+    }
+
+    public boolean isEqual(Account another) {
+        if (this.agency != another.agency) {
+            return false;
+        }
+
+        if (this.number != another.number) {
+            return false;
+        }
+        return true;
     }
 }
