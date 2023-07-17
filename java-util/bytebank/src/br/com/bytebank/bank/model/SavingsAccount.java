@@ -14,6 +14,6 @@ public class SavingsAccount extends Account {
 
     @Override
     public String toString(){
-        return "Savings Account\n" + super.toString();
+        return "Savings Account, " + super.toString();
     }
 }

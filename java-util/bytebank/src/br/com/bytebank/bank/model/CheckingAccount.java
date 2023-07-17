@@ -24,6 +24,6 @@ public class CheckingAccount extends Account implements Taxable {
 
     @Override
     public String toString() {
-       return "Checking Account\n" + super.toString();
+       return "Checking Account, " + super.toString();
     }
 }
