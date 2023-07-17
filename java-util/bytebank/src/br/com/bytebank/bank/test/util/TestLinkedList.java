@@ -12,6 +12,7 @@ public class TestLinkedList {
     public static void main(String[] args) {
 
         //generics
+        //List<Account> list = new Vector<Account>();
         List<Account> list = new LinkedList<Account>();
 
         Account cc = new CheckingAccount(22, 11);
