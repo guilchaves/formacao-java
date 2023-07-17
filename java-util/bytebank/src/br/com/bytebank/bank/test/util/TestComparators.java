@@ -10,7 +10,7 @@ import br.com.bytebank.bank.model.Client;
 import br.com.bytebank.bank.model.SavingsAccount;
 
 
-public class Test {
+public class TestComparators {
     public static void main(String[] args) {
         Account cc1 = new CheckingAccount(22, 33);
         Client clientCC1 = new Client();
