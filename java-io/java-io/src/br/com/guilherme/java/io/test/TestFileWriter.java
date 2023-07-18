@@ -3,7 +3,7 @@ package br.com.guilherme.java.io.test;
 
 import java.io.*;
 
-public class TestWriter2 {
+public class TestFileWriter {
     public static void main(String[] args) throws IOException {
 //        OutputStream fos = new FileOutputStream("lorem2.txt");
 //        Writer osw = new OutputStreamWriter(fos);
